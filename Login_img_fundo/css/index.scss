@@ -19,16 +19,7 @@ html,body {
   width: 350px;
   position: relative;
   overflow: hidden;
-  
-  &::after {
-    content: '';
-    opacity: .8;
-    position: absolute;
-    top: 0;right:0;bottom:0;left:0;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 500px;
-    background-image: url('https://cursossenai.org/wp-content/uploads/2021/01/SENAI-Cotia-1280x720.jpg');
+
   }
   
   .signup {
